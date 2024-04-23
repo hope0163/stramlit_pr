@@ -11,5 +11,13 @@ def main():
 
     st.dataframe(df)
 
+    # species 컬럼의 유니크 값을 화면에 표시
+
+    print(df['species'].unique())
+
+    st.write(df['species'].unique())
+
+    st.text('아이리스 꽃은 ' + df['species'].unique() + '로 되어있다.')
+
 if __name__ == '__main__':
     main()
