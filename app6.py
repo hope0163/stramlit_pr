@@ -36,7 +36,7 @@ def main():
     print(my_date)
     st.write(my_date)
     print(type(my_date))
-
+    
 
     # 8. 요일 찍기
     st.text(my_date.weekday())
